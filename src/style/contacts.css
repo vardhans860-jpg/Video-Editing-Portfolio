@@ -1,0 +1,159 @@
+/* =========================
+   CONTACT
+========================= */
+
+.contact {
+  width: 90%;
+  max-width: 1550px;
+
+  margin: 160px auto 80px;
+
+  padding: 120px 30px;
+
+  text-align: center;
+
+  border-top: 1px solid #151515;
+  border-bottom: 1px solid #222;
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.contact-content {
+  max-width: 1050px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================
+   LABEL
+========================= */
+
+.contact-label {
+  margin-bottom: 25px;
+
+  color: #ff6b61;
+
+  font-size:20px;
+
+  font-weight: 700;
+
+  letter-spacing: 4px;
+}
+
+
+/* =========================
+   HEADING
+========================= */
+
+.contact h2 {
+  margin: 0;
+
+  color: #ffffff;
+
+  font-size: clamp(50px, 6vw, 90px);
+
+  line-height: 1.2;
+
+  letter-spacing: -5px;
+}
+
+.contact h2 span {
+  color: #666666;
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.contact-description {
+  max-width: 600px;
+
+  margin: 35px auto;
+
+  color: #f3ebeb;
+
+  font-size: 22px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.contact-button {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  padding: 20px 35px;
+
+  background: #ffffff;
+
+  color: #000000;
+
+  border-radius: 30px;
+
+  text-decoration: none;
+
+  font-size: 20px;
+
+  font-weight: 600;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.contact-button span {
+  font-size: 20px;
+
+  transition: transform 0.3s ease;
+}
+
+.contact-button:hover {
+  transform: translateY(-4px);
+
+  background: #eeeeee;
+}
+
+.contact-button:hover span {
+  transform: translate(3px, -3px);
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  .contact {
+    width: 90%;
+
+    margin: 40px auto 50px;
+
+    padding: 40px 10px;
+  }
+
+  .contact h2 {
+    font-size: 48px;
+
+    letter-spacing: -3px;
+  }
+
+  .contact-description {
+    font-size: 15px;
+  }
+
+}

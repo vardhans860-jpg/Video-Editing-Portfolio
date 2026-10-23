@@ -1,0 +1,80 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* =========================
+   HTML
+========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+  margin: 0;
+
+  min-width: 320px;
+
+  background: #0b0b0b;
+
+  color: #ffffff;
+
+  font-family:
+    Inter,
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* =========================
+   ROOT
+========================= */
+
+#root {
+  min-height: 100vh;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+  color: inherit;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+
+/* =========================
+   SELECTION
+========================= */
+
+::selection {
+  background: #ffffff;
+  color: #000000;
+}
